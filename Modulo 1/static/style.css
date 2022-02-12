@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cdcdcd;
+
+}
+
+.container{
+    margin: auto;
+    padding: 2rem;
+    background-color: inherit;
+    width: 75%;
+    height: 100vh;
+    color: #5f708e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.wrapper{
+    background-color: #fff;
+}
+
+.wrapper label{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.wrapper  label:nth-child(even){
+    background-color: #cdcdcd;
+}
+
+.wrapper  label:nth-child(odd){
+    font-weight: 600;
+}
